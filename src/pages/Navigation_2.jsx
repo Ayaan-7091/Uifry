@@ -3,6 +3,7 @@ import logo from '../assets/logo.png';
 import '../App.css';
 import Brightness5Icon from '@mui/icons-material/Brightness5';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
@@ -64,10 +65,11 @@ export default function Navigation_2({ darkMode, toggleDarkMode }) {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {/* custom button here */}
                 <button
-                  className="bg-black text-white p-2 rounded-sm mr-2 hover:bg-customRed"
+                  className={`${darkMode? 'bg-customRed' : 'bg-black'} text-white p-2 rounded-sm mr-2 hover:bg-customRed `}
                   onClick={toggleDarkMode}
                 >
-                  <Brightness5Icon />
+                  {darkMode ?  <Brightness5Icon /> : <DarkModeIcon />}
+                  
                 </button>
                 {/* Profile dropdown */}
                 <div>

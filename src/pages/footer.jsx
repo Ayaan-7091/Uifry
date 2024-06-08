@@ -1,4 +1,6 @@
 import logo from '../assets/logo.png';
+import logoDark from '../assets/logo-dark.png';
+
 
 export default function Footer({ darkMode }) {
     return (
@@ -6,7 +8,7 @@ export default function Footer({ darkMode }) {
             <div className="section-2 flex flex-col md:flex-row justify-evenly gap-4 p-6 md:p-4 ">
                 <div className="block-s-1 flex flex-col space-y-4">
                     <div className="tab-1 flex items-center space-x-4">
-                        <img width="100" height="100" src={logo} className="mb-5" />
+                        <img width="100" height="100" src={darkMode?logoDark:logo} className="mb-5" />
                     </div>
                     <div className="tab-3 flex items-center space-x-2">
                         <img width="16" height="16" src="https://img.icons8.com/material-rounded/24/ff5555/filled-message.png" alt="phone"/>
