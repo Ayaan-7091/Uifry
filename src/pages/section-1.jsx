@@ -17,7 +17,7 @@ export default function Section1({darkMode}) {
 
 
                 <div className="row-span-1 grid-rows-2 mt-4 mb-6">
-                    <div className="grid grid-cols-2 items-start w-[25rem]">
+                    <div className="grid grid-cols-2 items-start w-[21rem] md:w-[25rem]">
                         <button className='bg-black text-white p-2 rounded-sm col-span-1 w-[10rem]'>Get Started →</button>
                         <button className='bg-white text-black p-2 rounded-sm col-span-1 w-[10rem] hover:bg-customRed hover:text-white'><PlayCircleOutlineIcon /> Watch Video</button>
                     </div>
