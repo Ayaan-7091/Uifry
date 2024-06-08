@@ -4,7 +4,7 @@ import logoDark from '../assets/logo-dark.png';
 
 export default function Footer({ darkMode }) {
     return (
-        <div className={`footer grid ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}-100 mt-40`}>
+        <div className={`footer grid ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}-100 pt-20`}>
             <div className="section-2 flex flex-col md:flex-row justify-evenly gap-4 p-6 md:p-4 ">
                 <div className="block-s-1 flex flex-col space-y-4">
                     <div className="tab-1 flex items-center space-x-4">

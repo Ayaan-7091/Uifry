@@ -10,6 +10,8 @@ import Section4 from './pages/section-4';
 import Section5 from './pages/section-5';
 import FAQ from './pages/faq';
 import BannerSection from './pages/banner-section';
+import BannerSection2 from './pages/banner-section-2';
+
 import Footer from './pages/footer';
 
 
@@ -31,7 +33,7 @@ function App() {
     <Section4 darkMode={darkMode}/>
     <Section5 darkMode={darkMode}/>
     <FAQ darkMode={darkMode}/>
-    <BannerSection />
+    <BannerSection2 darkMode={darkMode}/>
     <Footer darkMode={darkMode}/>
     </div>
     </div>
