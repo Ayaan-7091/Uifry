@@ -10,13 +10,13 @@ export default function FAQ(){
             </div>
             <div className="cards md:grid md:grid-cols-2">
                 <div className="left-side md:col-span-1">   
-                    <FaqCard text={'white'} bg={'customRed'} />
+                    <FaqCard text={'white'} bg={'#ff5555'} />
                     <FaqCard text={'black'} sub_text={'opacity-40'}/>
-                    <FaqCard text={'white'} bg={'customRed'}/>  
+                    <FaqCard text={'white'} bg={'#ff5555'}/>  
                 </div>
                 <div className="right-side md:col-span-1 ml-3">   
                     <FaqCard sub_text={'opacity-40'}/>
-                    <FaqCard text={'white'} bg={'customRed'}/>
+                    <FaqCard text={'white'} bg={'#ff5555'}/>
                     <FaqCard sub_text={'opacity-40'}/>  
                 </div>
             </div>

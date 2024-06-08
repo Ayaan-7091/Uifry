@@ -1,7 +1,7 @@
-export default function FaqCard({bg,text,sub_text}){
+export default function FaqCard({bg = '#ffffff',text,sub_text}){
 
     return(
-        <div className={`faq-card bg-${bg} p-6 rounded-md mt-5 shadow-md md:shadow-none`}>
+        <div className={`faq-card p-6 rounded-md mt-5 shadow-md md:shadow-none`} style={{backgroundColor:bg}}>
                     <h2 className={`mb-10 font-semibold text-md md:text-4xl text-${text}`} >
                     
                     The Best Financial Accounting App Ever!</h2>
