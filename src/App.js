@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className={darkMode ? 'dark-mode' : ''}>
+    <div className={darkMode ? 'dark-mode' : ''}  style={{backgroundColor:'#111827'}}>
     <div className="App">
    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,600&display=swap" rel="stylesheet"></link>
     <Navigation_2  darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>

@@ -4,7 +4,7 @@ import blur from '../assets/blur1.png';
 export default function BannerSection2() {
     return (
         <div className="relative h-screen w-full bg-cover bg-no-repeat bg-center p-20 bg-gray-900" style={{ backgroundImage: `url(${img})` }}>
-            <div className="absolute inset-0 flex flex-col justify-center pl-20">
+            <div className="absolute inset-0 flex flex-col justify-center pl-4 md:pl-20">
                 <h1 className="text-white text-3xl md:text-5xl lg:text-7xl font-bold mb-4">
                     Ready To Get Started?
                 </h1>
