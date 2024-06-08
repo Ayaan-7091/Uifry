@@ -73,7 +73,7 @@ export default function Footer({ darkMode }) {
                     </div>
                     <div className="tab-3 flex md:items-center space-x-2 flex-col md:flex-row">
                         <input type="text" className="border p-2 mb-2 md:mb-0" placeholder="Your Email" />
-                        <button className={`bg-${darkMode ? 'black' : 'white'} text-${darkMode ? 'white' : 'black'} p-2 rounded-sm col-span-1 w-[10rem]`}>
+                        <button className={`bg-${darkMode ? 'black' : 'black'} text-${darkMode ? 'white' : 'white'} p-2 rounded-sm col-span-1 w-[10rem]`}>
                             Subscribe
                         </button>
                     </div>
